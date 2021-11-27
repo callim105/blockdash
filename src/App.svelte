@@ -1,6 +1,7 @@
 <script>
 	import BarChart from './BarChart.svelte';
 	import Login from './Login.svelte';
+	import TvChart from './TVChart.svelte';
 	var data = [30, 86, 133, 81, 303, 365];
 	let count = 0;
 	$: doubled = data;
@@ -27,4 +28,6 @@
 <p>{doubled}</p>
 
 <BarChart data={[1,2,3,22,3,1]} />
+
+<TvChart />
 
